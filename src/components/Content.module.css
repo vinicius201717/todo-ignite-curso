@@ -1,0 +1,67 @@
+.main {
+    max-width: 46rem;
+    height: 17.93rem;
+    margin: 4rem auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: var(--blue, #4EA8DE);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header p span {
+    padding: 0.225rem 0.5rem;
+    align-items: center;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    background: var(--gray-400, #ffffff);
+    color: var(--gray-100);
+    margin-left: 0.25rem;
+}
+
+.contentWithoutTask {
+    height: 17rem;
+    border-radius: 8px;
+    border-top: 1px solid var(--gray-400);
+    margin-top: 1rem;
+    padding: 5.33rem 1.5rem ;
+    text-align: center;
+}
+
+.contentWithTask {
+    height: 17rem;
+    border-radius: 8px;
+    border-top: 1px solid var(--gray-400);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.haventTaskTextH2 {
+    color: var(--gray-300);
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.haventTaskTextH3 {
+    color: var(--gray-300, #808080);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.haventTaskIcon{
+    color: var(--gray-400, #808080);
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}

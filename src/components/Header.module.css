@@ -1,0 +1,36 @@
+.header {
+    height: 12.5rem;
+    background: var(--gray-700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    color: var(--blue, #4EA8DE);
+    font-family: roboto, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 12px;
+}
+
+.logo p span:nth-child(2) {
+    color: var(--purple-dark, #5E60CE);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+header img {
+    width: 1.375rem;
+    height: 2.25rem;
+}
